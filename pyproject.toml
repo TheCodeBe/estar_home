@@ -1,0 +1,14 @@
+[project]
+name = "estar_home"
+authors = [
+    { name = "TheCodeBe", email = "j.eric.swaim@gmail.com" },
+]
+description = "Routes the ERPNext desk home button / app launcher to the Command Center workspace"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = []
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
